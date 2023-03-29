@@ -3,7 +3,7 @@ services:
     whatsapp-chatgpt:
         image: ghcr.io/askrella/whatsapp-chatgpt:master
         environment:
-            OPENAI_API_KEY: ""
+            OPENAI_API_KEY: "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"
             OPENAI_GPT_MODEL: ""
             PREFIX_ENABLED: ""
         volumes:
